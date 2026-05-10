@@ -94,13 +94,13 @@ interface AppState {
 }
 
 const defaultState: AppState = {
-  balance: 5000,
+  balance: 500,000,000.00
   transactions: [
     {
       id: '1',
       type: 'debit',
       description: 'WhatsApp Alert Charges',
-      amount: 100,
+      amount: 100,000.00
       date: 'May 7th, 07:32:05',
       status: 'successful',
       icon: '💬',
@@ -194,9 +194,9 @@ const defaultState: AppState = {
     },
   ],
   userProfile: {
-    name: 'MISHAEL OKAFOR',
-    email: 'mishael.okafor@email.com',
-    phone: '+234 901 234 5678',
+    name: 'TOYEEB OLAWUYI',
+    email: 'toyeeb.work@email.com',
+    phone: '+234 703 502 1849',
     avatar: '👤',
   },
 };
